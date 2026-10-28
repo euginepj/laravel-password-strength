@@ -9,6 +9,13 @@ A comprehensive password strength analyzer, scoring engine, and validation rule 
 
 ---
 
+## 📋 Requirements
+
+- **PHP:** 8.2 or higher (Laravel 13 requires PHP 8.3+)
+- **Laravel:** 10.x, 11.x, 12.x, or 13.x
+
+---
+
 ## ✨ Features
 
 - **Entropy & Complexity Evaluator**: Analyzes character sets, length, repeated characters, and sequential keyboard patterns.
