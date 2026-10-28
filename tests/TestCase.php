@@ -18,6 +18,7 @@ abstract class TestCase extends Orchestra
 
     protected function defineEnvironment($app): void
     {
+        $app['config']->set('app.key', 'base64:' . base64_encode(random_bytes(32)));
         $app['config']->set('password-strength.min_length', 8);
         $app['config']->set('password-strength.optimal_length', 12);
         $app['config']->set('password-strength.min_score', 3);
